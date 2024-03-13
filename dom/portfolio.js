@@ -1,4 +1,4 @@
-const app = document.getElementById('app')
+const portfólio = document.getElementById('Portfólio')
  
 const header = document.createElement('header');
         header.innerHTML = `
@@ -97,7 +97,7 @@ app.appendChild(contatoH2)
        <input type="text" id="email" name="email"  placeholder="Digite o seu e-mail">
    
        <label for="message">Mensagem: </label>
-       <textarea id="message" name="message" placeholder="Envie uma mensagem" style="height:100px"></textarea>
+       <textarea id="text" name="text" placeholder="Envie uma mensagem" style="height:100px"></textarea>
        <center>
        <button type="submit" class="registerbtn">Enviar</button> 
        </center> 
